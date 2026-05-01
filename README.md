@@ -178,6 +178,66 @@ Design principles:
 
 ---
 
+## Source Code Structure
+
+The production codebase follows a modular React structure. The exact source code remains private, but the architecture is organized around route-level pages, reusable UI components, feature modules, content data and SEO/analytics utilities.
+
+```text
+src/
+├── components/
+│   ├── ui/              # shadcn/ui base components and reusable UI primitives
+│   ├── header/          # Header and navigation components
+│   ├── reviews/         # Google reviews and trust-building sections
+│   ├── cookie-consent/  # GDPR cookie consent components
+│   ├── Breadcrumbs.tsx  # Breadcrumb navigation
+│   ├── Footer.tsx      # Footer layout
+│   ├── MobileStickyBar.tsx
+│   ├── PageSEO.tsx     # SEO metadata component
+│   ├── GoogleAnalytics.tsx
+│   ├── PageTracker.tsx
+│   ├── ScrollToTop.tsx
+│   └── WhatsAppButton.tsx
+├── features/
+│   ├── home/            # Homepage sections: hero, trust, about, booking CTA
+│   ├── treatments/      # Treatment overview, detail sections, pricing and FAQs
+│   ├── pricing/         # Price groups, categories and price rows
+│   ├── contact/         # Contact section, map, contact info and FAQ
+│   ├── schulungen/      # Training/schooling page sections
+│   └── legal/           # Legal page layout and reusable legal sections
+├── content/
+│   ├── site/            # Static site content, reviews, gallery and structured data
+│   ├── services/        # Treatment/service content and detail data
+│   ├── pricing/         # Price lists and treatment pricing data
+│   └── legal/           # Impressum and Datenschutz content
+├── layouts/
+│   └── RootLayout.tsx   # Shared layout with header, footer and global UI elements
+├── pages/
+│   ├── Index.tsx
+│   ├── Behandlungen.tsx
+│   ├── BehandlungDetail.tsx
+│   ├── WeitereBehandlungen.tsx
+│   ├── Preise.tsx
+│   ├── Kontakt.tsx
+│   ├── Schulungen.tsx
+│   ├── Impressum.tsx
+│   ├── Datenschutz.tsx
+│   └── NotFound.tsx
+├── hooks/               # Custom React hooks
+├── lib/                 # Shared helpers and utility logic
+└── main.tsx             # Application entry point
+
+public/
+├── images/              # Public image assets
+├── sitemap.xml          # XML sitemap
+├── robots.txt           # Robots configuration
+├── og-image.jpg         # Social sharing preview image
+└── favicon.ico          # Website favicon
+```
+
+This structure separates content, page routing, feature sections and reusable components. It keeps the website maintainable while supporting SEO, local landing pages, treatment detail pages, cookie consent and conversion-focused contact flows.
+
+---
+
 ## Screenshots
 
 ### Desktop Homepage
