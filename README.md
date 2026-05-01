@@ -197,26 +197,39 @@ This makes the project easy to present as a professional case study without expo
 
 ## Screenshots
 
-Screenshots can be added here without exposing private source code.
+### Desktop Homepage
 
-Recommended structure:
+<img src="./homepage-desktop.png" alt="Beautyroom by SARE desktop homepage" width="100%" />
 
-```text
-screenshots/
-├── homepage-desktop.png
-├── homepage-mobile.png
-├── treatments-section.png
-├── contact-section.png
-├── legal-pages.png
-└── performance-preview.png
-```
+### Mobile Experience
 
-Example usage after adding screenshots:
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./homepage-mobile.png" alt="Beautyroom by SARE mobile homepage" width="280" />
+    </td>
+    <td width="50%" align="center">
+      <img src="./homepage-mobile2.png" alt="Beautyroom by SARE second mobile screen" width="280" />
+    </td>
+  </tr>
+</table>
 
-```md
-![Beautyroom by SARE Homepage Desktop](./screenshots/homepage-desktop.png)
-![Beautyroom by SARE Mobile View](./screenshots/homepage-mobile.png)
-```
+### Treatment & Contact Pages
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./treatments-page.png" alt="Beautyroom by SARE treatments page" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="./contact-page.png" alt="Beautyroom by SARE contact page" width="100%" />
+    </td>
+  </tr>
+</table>
+
+### Performance Preview
+
+<img src="./performance-preview.png" alt="Beautyroom by SARE performance preview" width="100%" />
 
 ---
 
