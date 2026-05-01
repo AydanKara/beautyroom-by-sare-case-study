@@ -199,17 +199,17 @@ This makes the project easy to present as a professional case study without expo
 
 ### Desktop Homepage
 
-<img src="./homepage-desktop.png" alt="Beautyroom by SARE desktop homepage" width="100%" />
+<img src="./screenshots/homepage-desktop.png" alt="Beautyroom by SARE desktop homepage" width="100%" />
 
 ### Mobile Experience
 
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="./homepage-mobile.png" alt="Beautyroom by SARE mobile homepage" width="280" />
+      <img src="./screenshots/homepage-mobile.png" alt="Beautyroom by SARE mobile homepage" width="280" />
     </td>
     <td width="50%" align="center">
-      <img src="./homepage-mobile2.png" alt="Beautyroom by SARE second mobile screen" width="280" />
+      <img src="./screenshots/homepage-mobile2.png" alt="Beautyroom by SARE second mobile screen" width="280" />
     </td>
   </tr>
 </table>
@@ -219,17 +219,17 @@ This makes the project easy to present as a professional case study without expo
 <table>
   <tr>
     <td width="50%">
-      <img src="./treatments-page.png" alt="Beautyroom by SARE treatments page" width="100%" />
+      <img src="./screenshots/treatments-page.png" alt="Beautyroom by SARE treatments page" width="100%" />
     </td>
     <td width="50%">
-      <img src="./contact-page.png" alt="Beautyroom by SARE contact page" width="100%" />
+      <img src="./screenshots/contact-page.png" alt="Beautyroom by SARE contact page" width="100%" />
     </td>
   </tr>
 </table>
 
 ### Performance Preview
 
-<img src="./performance-preview.png" alt="Beautyroom by SARE performance preview" width="100%" />
+<img src="./screenshots/performance-preview.png" alt="Beautyroom by SARE performance preview" width="100%" />
 
 ---
 
