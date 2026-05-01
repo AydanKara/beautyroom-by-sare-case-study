@@ -178,23 +178,6 @@ Design principles:
 
 ---
 
-## Architecture Notes
-
-The private production project is built with a modern React/Vite architecture and a reusable component system.
-
-The case study content inside the aysek.dev portfolio is structured with dedicated sections for:
-
-- Challenge
-- Solution
-- Features
-- Outcome
-- Call to action
-- Technology stack
-
-This makes the project easy to present as a professional case study without exposing private implementation details.
-
----
-
 ## Screenshots
 
 ### Desktop Homepage
